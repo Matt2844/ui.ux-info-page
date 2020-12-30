@@ -4,6 +4,10 @@
   font-family: 'Roboto';
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-weight: 300;
   margin: 0px;
@@ -162,7 +166,7 @@ margin-bottom: 0em;;
 
 /* Section 1 */
 
-.section1 {
+#section1 {
   height: 30em;
   margin-top: 4em;
   background-color: rgb(114, 185, 218);  
@@ -186,11 +190,12 @@ margin-bottom: 0em;;
   width: 1em;
   margin-top: 3em;
   background-color: rgb(238, 112, 112);
+  box-shadow: 4px 4px 1px grey;
 }
 
 /* Section 3 */ 
 
-.section3 {
+#section3 {
 height: 11em;
 margin-top: 4em;
 display: flex;
@@ -212,7 +217,7 @@ justify-content: space-evenly;
 
 /* Section 3 */
 
-.section4 {
+#section4 {
   background-color: rgb(218, 183, 218);
   height: 20em;
   display: flex;
@@ -224,6 +229,7 @@ justify-content: space-evenly;
   height: 29em; 
   margin-top: 14em;
   background-color: rgb(237, 237, 173);
+  box-shadow: 4px 4px 1px grey;
 }
 
 .block3-2 {
@@ -236,4 +242,94 @@ justify-content: space-evenly;
 .block3-3 {
   font-size: 50px;
   margin-top: 2.7em;
+}
+
+/* Section 4 */
+
+#section5 {
+  height: 11em;
+  margin-top: 4em;
+ 
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+}
+
+.block4-2 {
+  width: 17em;
+  margin-left: 6em;
+  margin-top: 1em;
+  font-size: 30px;
+}
+
+.block4-1 {
+  width: 15em;
+  margin-top: 2em;
+  margin-right: 4em;
+}
+
+/* section 5 */ 
+
+#section6 {
+  margin-top: 3em; 
+  display: flex; 
+  justify-content: space-evenly;
+  background-color: rgb(114, 185, 218);  
+}
+
+.block5-1 {
+  width: 22em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 18px;
+}
+
+.block5-2 {
+  margin-top: 2.5em;
+  font-size: 50px;
+}
+
+/* Section 6 */
+
+#section7 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 11em;
+}
+
+.block6-1 {
+  margin-top: 3em;
+  font-size: 28px;
+}
+
+.block6-2 {
+  width: 18em;
+  margin-top: 5em;
+}
+
+/* Section 7 */ 
+
+#section8 {
+  height: 18em;
+  background-color: rgb(247, 243, 118);
+}
+
+.block7-1 {
+  margin-left: 0.5em;
+  font-size: 100px;
+  font-weight: 500;
+}
+
+.block7-1 span {
+  background-color: rgb(42, 210, 42);
+  box-shadow: 8px 8px 0px black;
+}
+
+.citation7 {
+  text-align: center;
+}
+
+#section-last {
+  background-color: rgb(114, 185, 218);
+  height: 10em;
 }
