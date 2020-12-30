@@ -1,0 +1,239 @@
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+body {
+  font-weight: 300;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+h1 {
+font-family: 'Roboto';
+font-weight: 500;
+margin-left: 2em;
+margin-top: 1em;
+margin-bottom: 0em;;
+}
+
+
+.key1, 
+.key2, 
+.key3,
+.key4,
+.key5,
+.key6,
+.key7
+ {
+  padding-top: 0.7em;
+  padding-left: 0.7em;
+  font-weight: 300;
+  border: 1px solid grey;
+  margin-top: 1em;
+  width: 7em;
+  margin-left: 1em;
+  position: relative;
+}
+
+
+.key1:hover, 
+.key2:hover, 
+.key3:hover,
+.key4:hover,
+.key5:hover,
+.key6:hover,
+.key7:hover {
+  cursor: pointer;
+}
+
+.keys {
+  display: flex;
+  margin-left: 1em;
+  margin-right: 1em;
+  height: 29em;
+}
+
+.key1 {
+  margin-top: 3em;
+  margin-bottom: 5em;
+  height: 22em;
+  background-image: url('images/keys1.png');
+}
+
+.key1:hover {
+  background-image: url('images/hover1.jpg');
+  background-repeat: no-repeat;
+  background-size: 23em;
+  background-position: center;
+}
+
+.key2 {
+  color: grey;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  background-image: url('images/keys2.png');
+}
+
+.key2:hover {
+  background-image: url('images/hover2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 19em;
+}
+
+.key3 {
+  color: grey;
+  margin-top: 7em;
+  background-color: rgb(216, 245, 245);
+  background-image: url('images/flower-background.jpg');
+  background-size: 18em;
+}
+
+.key3:hover {
+  color: rgb(242, 119, 119); 
+  font-weight: 600;
+}
+
+.key4 {
+  margin-top:  5em; 
+  margin-bottom: 1em;
+  background-image: url('images/keys4.png');
+}
+
+.key4:hover {
+  background-image: url('images/hover4.png');
+  background-repeat: no-repeat;
+  background-size: 25em;
+  background-position: center;
+}
+
+.key5 {
+  color: grey;
+  margin-bottom: 3em;
+  background-image: url('images/flower-background.jpg');
+  background-size: 22em;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.key5:hover {
+  color: rgb(242, 119, 119); 
+  font-weight: 600;
+}
+
+.key6 {
+  margin-top: 3em;
+  margin-bottom: 2em;
+  background-image: url('images/keys6.png');
+}
+
+.key6:hover {
+  background-image: url('images/hover6.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 32em;
+}
+
+.key7 {
+  color: grey;
+  margin-top: 7em;
+  background-image: url('images/flower-background.jpg');
+  background-repeat: no-repeat;
+  background-size: 18em;
+  background-position: right;
+}
+
+.key7:hover {
+  color: rgb(242, 119, 119); 
+  font-weight: 600;
+}
+
+.intro {
+  font-weight: 300;
+  margin-top: 24.4em;
+  margin-left: 1.3em;
+  height: 10em;
+  width: 10em;
+  
+}
+
+/* Section 1 */
+
+.section1 {
+  height: 30em;
+  margin-top: 4em;
+  background-color: rgb(114, 185, 218);  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.block1-1 {
+  font-size: 50px;
+  margin-top: 3.3em;
+}
+
+.block1-2 {
+  width: 14em;
+  margin-top:8.2em;
+  font-size: 18px;
+}
+
+.block1-3 {
+  height: 38em; 
+  width: 1em;
+  margin-top: 3em;
+  background-color: rgb(238, 112, 112);
+}
+
+/* Section 3 */ 
+
+.section3 {
+height: 11em;
+margin-top: 4em;
+display: flex;
+justify-content: space-evenly;
+}
+
+.block2-1 {
+  margin-top: 3em;
+  margin: 1em;
+  margin-left: 2em;
+  width: 14em;
+}
+
+.block2-2 {
+  width: 14em;
+  margin-top: 0.6em;
+  font-size: 30px;
+}
+
+/* Section 3 */
+
+.section4 {
+  background-color: rgb(218, 183, 218);
+  height: 20em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.block3-1 {
+  width: 1em;
+  height: 29em; 
+  margin-top: 14em;
+  background-color: rgb(237, 237, 173);
+}
+
+.block3-2 {
+  width: 17em;
+  margin-left: 1em;
+  margin-top: 4em;
+  font-size: 18px;
+}
+
+.block3-3 {
+  font-size: 50px;
+  margin-top: 2.7em;
+}
